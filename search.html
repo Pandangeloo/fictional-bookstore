@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--about.html-->
+<!--search.html-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,6 +21,19 @@
     </header>
     <hr color="black">
 
+    <section>
+        <h2>Sök efter en bok</h2>
+
+        <form method="get" action=""
+            onsubmit="window.location.href='db/' 
+            +document.getElementById('search').value
+            +'.html'; return false;">
+            <label for="isbn">ISBN</label>
+        <input type="search" placeholder="Sök..." id="search" name="isbn" required>
+        <input type="submit" value="Hitta boken">    
+        </form>
+
+    </section>
    
         
       
