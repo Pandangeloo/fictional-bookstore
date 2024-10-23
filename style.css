@@ -1,0 +1,113 @@
+/* *********Generic *********** */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFCC66;
+    color: blue;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+
+background-color:  #003366 ;
+padding: 20px;
+text-align: center;
+
+
+}
+
+table {
+    width: 1000px;
+}
+
+h1 {
+color: white;
+
+}
+
+h2,h3 {
+color: #003366;
+
+}
+
+
+
+
+
+section {
+
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px #003366;
+    border-radius: 20px;
+
+}
+
+section p  {
+
+    color: #336699;
+    width: 100%;
+
+
+}
+
+section p strong {
+    color: #003366;
+}
+
+section li  {
+
+    color: #336699;
+    width: 100%;
+
+
+}
+
+section li strong {
+    color: #003366;
+}
+
+section ol li::marker {color: #003366;}
+
+section ul li::marker {color: #003366;}
+
+a:hover {
+    color: #FFCC66;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+header h1,header h2 {
+    color: white;
+}
+
+header a {
+    
+    color: white;
+        padding: 8px 30px;
+    background-color:  #336699;
+    border-radius: 10px;
+    margin: 10px;
+
+
+}
+
+hr {
+    color:#003366
+    
+}
+
+label{color: #003366;}
+
+address {
+    color: #336699;
+}
+
+address strong {color: #003366;}
